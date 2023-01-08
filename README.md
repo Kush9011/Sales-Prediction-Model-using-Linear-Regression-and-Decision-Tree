@@ -67,7 +67,8 @@ The screenshot below shows the outliers using boxplot.
 
 ### Box plot for detecting outliers
 
-![ScreenShot](https://github.ncsu.edu/krtiwari/t/blob/main/Pictures/Detecting%20outliiers.png?raw=true)
+![ScreenShot](https://github.com/Kush9011/Sales-Prediction-Model-using-Linear-Regression-and-Decision-Tree/blob/main/Pictures/Detecting%20outliiers.png?raw=true)
+
 
 **From the above box plots, we can visually identify the outliers in the plots. The outliers are present in weekly_sales, Temperature, and Unemployment.**
 
