@@ -35,7 +35,7 @@ After importing data, I cleaned the data by dropping the missing values from the
 After cleaning data and removing null values and irrelevant columns, I had a look at how our data looked by using panda’s `‘.head’` function.
 
 ### Data set screenshot
-![ScreenShot](https://github.ncsu.edu/krtiwari/t/blob/main/Pictures/Dataset.png?raw=true)
+![ScreenShot](https://github.com/Kush9011/Sales-Prediction-Model-using-Linear-Regression-and-Decision-Tree/blob/main/Pictures/Dataset.png?raw=true)
  
  
 ## 3. Feature Exploration
