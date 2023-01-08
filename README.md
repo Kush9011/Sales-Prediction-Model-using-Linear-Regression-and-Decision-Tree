@@ -48,7 +48,7 @@ I used seaborn to plot the line plot with Date on the x-axis and Features on the
 
 ### Lineplot for feature exploration
 
-![ScreenShot](https://github.ncsu.edu/krtiwari/t/blob/main/Pictures/Feature.png?raw=true)
+![ScreenShot](https://github.com/Kush9011/Sales-Prediction-Model-using-Linear-Regression-and-Decision-Tree/blob/main/Pictures/Feature.png?raw=true)
  
 **From the line graph we can see the following things:**
 * 1) The weekly sales are stable over a given period with a slightly declined trend, the weekly sales also have a seasonality rise every year. 
