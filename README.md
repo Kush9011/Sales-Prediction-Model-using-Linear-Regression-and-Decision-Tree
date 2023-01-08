@@ -76,7 +76,7 @@ Now, Outliers should be removed for a better model, **outliers can influence the
 
 #### For removing Outliers by using the lower whisker and upper whisker, I also used visualization to check if the outliers were removed.
 
-![ScreenShot](https://github.ncsu.edu/krtiwari/t/blob/main/Pictures/Removed%20Outliers.png?raw=true)
+![ScreenShot](https://github.com/Kush9011/Sales-Prediction-Model-using-Linear-Regression-and-Decision-Tree/blob/main/Pictures/Removed%20Outliers.png?raw=true)
 
 
 
@@ -87,7 +87,7 @@ Understanding the features that are involved in affecting sales. This can be don
 * The Pearson correlation coefficient model is calculated by following the formula.
 
 
-![ScreenShot](https://github.ncsu.edu/krtiwari/t/blob/main/Pictures/Pearson%20Correlation.png?raw=true)
+![ScreenShot](https://github.com/Kush9011/Sales-Prediction-Model-using-Linear-Regression-and-Decision-Tree/blob/main/Pictures/Pearson%20Correlation.png?raw=true)
 
 
 #### In python, we can find correlation by using `.corr` function and I visualized it using the `.sns` heatmap.
@@ -95,7 +95,7 @@ Understanding the features that are involved in affecting sales. This can be don
 
 ### Pearson Correlation Coefficient
 
-![ScreenShot](https://github.ncsu.edu/krtiwari/t/blob/main/Pictures/Feature%20%20correlation%20Heatmap.png?raw=true)
+![ScreenShot](https://github.com/Kush9011/Sales-Prediction-Model-using-Linear-Regression-and-Decision-Tree/blob/main/Pictures/Feature%20%20correlation%20Heatmap.png?raw=true)
 
 
 #### From the heatmap, we can easily see that there is no feature having a correlation greater than 0.90 or 90%.  So, we won't be eliminating any feature. 
@@ -106,7 +106,7 @@ We have two options when it comes to feature scaling first is normalization and 
 
 * The formula used for a standardization (standard scalar) is,
 
-![screenshot](https://github.ncsu.edu/krtiwari/t/blob/main/Pictures/standard%20scalar.png?raw=true)
+![screenshot](https://github.com/Kush9011/Sales-Prediction-Model-using-Linear-Regression-and-Decision-Tree/blob/main/Pictures/standard%20scalar.png?raw=true)
 
 During feature scaling, I encountered an issue in which the `Date` column cannot be standardized `(Dropping the date column is done because the date column cannot be in a float for standardization.)` so I dropped the Date column to successfully run the standardization. 
 
@@ -142,18 +142,18 @@ The r-square score is a statistical measure in a regression model that determine
 
 #### R-Square 
 
-![screeshot](https://github.ncsu.edu/krtiwari/t/blob/main/Pictures/R%20square.jpg?raw=true)
+![screeshot](https://github.com/Kush9011/Sales-Prediction-Model-using-Linear-Regression-and-Decision-Tree/blob/main/Pictures/R%20square.jpg?raw=true)
 
 #### Mean Squared error
 
-![screeshot](https://github.ncsu.edu/krtiwari/t/blob/main/Pictures/MSE.png?raw=true)
+![screeshot](https://github.com/Kush9011/Sales-Prediction-Model-using-Linear-Regression-and-Decision-Tree/blob/main/Pictures/MSE.png?raw=true)
 
 
 * **Linear Regression algorithm **
 
 A statistical technique known as "linear regression" enables the analysis of relationships between two continuous (quantitative) variables. The independent variable is one variable, represented by the letter X.
 
-![screenshot](https://github.ncsu.edu/krtiwari/t/blob/main/Pictures/Linear%20Regression.png?raw=true)
+![screenshot](https://github.com/Kush9011/Sales-Prediction-Model-using-Linear-Regression-and-Decision-Tree/blob/main/Pictures/Linear%20Regression.png?raw=true)
 
 Linear regression is carried out in python using `sklearn.linear` model and LinearRegression function. We fit the linear regression model on the training dataset which in my case was 80% of the total dataset and then we use the `.predict` function on test sets which is the remaining 20%.
 
@@ -169,7 +169,7 @@ To check the R-square and mean squared error we use sklearn.metrics to import `r
 Both classification and regression issues can be solved using decision trees. The term itself implies that it displays the predictions that come from a sequence of feature-based splits using a flowchart that resembles a tree structure. The decision is made by the leaves at the end, which follow the root node.
 
 
-![screenshot](https://github.ncsu.edu/krtiwari/t/blob/main/Pictures/decision%20Tree.png?raw=true) ![screenshot](https://github.ncsu.edu/krtiwari/t/blob/main/Pictures/DTR%20Entropy.png?raw=true)
+![screenshot](https://github.com/Kush9011/Sales-Prediction-Model-using-Linear-Regression-and-Decision-Tree/blob/main/Pictures/decision%20Tree.png?raw=true) ![screenshot](https://github.com/Kush9011/Sales-Prediction-Model-using-Linear-Regression-and-Decision-Tree/blob/main/Pictures/DTR%20Entropy.png?raw=true)
 
 Because decision trees are upside down, the root is at the top and is divided into multiple nodes. In simple words, decision trees are nothing more than a collection of if-else statements. It determines whether the condition is true, and if it is, it moves on to the next node associated with that choice.
 
